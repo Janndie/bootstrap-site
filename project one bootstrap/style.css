@@ -1,0 +1,495 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+#navbarNavAltMarkup {
+    justify-content: end;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/*modal*/
+
+#exampleModalLabel{
+    background-color: black;
+}
+
+.modal-body{
+    align-self: center;
+}
+
+
+#btn1 {
+    width: 155px;
+    height: 42px;
+    border-radius: 14px;
+    background: #FFF;
+    color:black;
+    font-size: 16px;
+    border-color: #FFF;
+}
+
+#btn1:focus,
+#btn1:active {
+    box-shadow: none !important;  
+}
+
+#btn1:active {
+    background: inherit;
+    color: inherit;
+    outline-color: black;
+}
+
+#main{
+    background-image: url(images/IMAGE.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#footer{
+    background-color: black;
+    padding-top: 5%;
+}
+
+#footer p {
+    padding-top: 2%;
+    color: rgba(192, 192, 192, 1);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#footer2 {
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+#footer2 li{
+margin-bottom: 2%;
+
+}
+
+
+
+#mount {
+    background-image: url(images/mount.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#monstera{
+    background-image: url(images/monstera.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#clients {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#clients1 {
+    justify-content: center;
+}
+
+#nepal {
+    background-image: url(images/nepal.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#help {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#help1 {
+    justify-content: center;
+}
+
+
+
+#text1 {
+    text-align: center;
+    padding-top:30%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(192, 192, 192, 1);
+    ;
+    padding-left: 19%;
+    padding-right: 19%;
+
+}
+
+#setting {
+    word-spacing: 1em;
+    text-align: end;
+    color: rgba(192, 192, 192, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+
+}
+
+#setting2 {
+    word-spacing: 1em;
+    text-align: end;
+    color: rgba(192, 192, 192, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    right: 8em;
+    bottom: 2em;
+    position: relative;
+}
+
+#setting3 {
+    word-spacing: 1em;
+    text-align: end;
+    color: rgba(192, 192, 192, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    right: 8em;
+    position: relative;
+    top: 39em;
+}
+
+
+
+
+
+#photo {
+    background-image: url(images/photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;  
+    height: 32em;
+}
+
+
+
+
+a {
+    color: rgba(192, 192, 192, 1);
+    text-decoration: none;
+  }
+  a:visited {
+    color:rgba(192, 192, 192, 1); 
+   }
+
+#text2 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(192, 192, 192, 1);
+    ;
+    padding-left: 19%;
+    padding-right: 19%;
+    padding-top:10%;
+}
+
+#text3 {
+    padding-right: 5%;
+    color: white;
+    text-align: end;
+    padding-top: 15%;
+    height: 40em;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+
+#text4{
+    padding-left: 75%;
+    text-transform: none !Important;
+    color:rgba(192, 192, 192, 1) ;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#text5{
+    background-color: black;
+    text-align: justify;
+    padding-top: 9%;
+    height: 32em;
+}
+
+#text6 {
+    padding-right: 5%;
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+    height: 40em;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#text7 {
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+    height: 40em;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+#clients h3{
+    padding-top: 1%;
+    color: rgba(192, 192, 192, 1);
+}
+
+
+
+#product {
+    background-image: url(images/product.png);
+    background-size: cover;
+    padding-top: 30%;
+    margin-right: 3%;
+    color: rgba(192, 192, 192, 1);
+    height: 38em;
+
+}
+
+#architecture {
+    background-image: url(images/architecture.png);
+    background-size: cover;
+    padding-top: 30%;
+    color: rgba(192, 192, 192, 1);
+
+}
+
+#drone {
+    background-image: url(images/drone.png);
+    background-size: cover;
+    padding-top: 30%;
+    margin-right: 3%;
+    color: rgba(192, 192, 192, 1);
+    height: 38em;
+
+}
+
+#wild {
+    background-image: url(images/wild.png);
+    background-size: cover;
+    padding-top: 30%;
+    color: rgba(192, 192, 192, 1);
+
+} 
+
+#icon {
+    padding-right: 5%;
+}
+
+.icon {
+    padding-left: 10%;
+   
+}
+
+#row {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+
+#buttons2 {
+    position: relative;
+    bottom: 3.5em;
+  
+}
+
+i {
+    float: left;
+    margin-right: 2%;
+    display: inline-flex;
+    border: 0.35em solid;
+    border-radius: 50%;
+    background-color: black;
+}
+
+
+
+
+#btn2 {
+    width: 143px;
+    height: 42px;
+    border-radius: 14px;
+    background: #FFF;
+    color:black;
+    font-size: 16px;
+    border-color: #FFF;
+}
+
+#btn2:focus,
+#btn2:active {
+    box-shadow: none !important;  
+}
+
+#btn2:active {
+    background: inherit;
+    color: inherit;
+    outline-color: black;
+}
+
+#btn3 {
+    width: 143px;
+    height: 42px;
+    border-radius: 14px;
+    background: #FFF;
+    color:black;
+    font-size: 16px;
+    border-color: #FFF;
+    margin-left: 5%;
+}
+
+#btn3:focus,
+#btn3:active {
+    box-shadow: none !important;  
+}
+
+#btn3:active {
+    background: inherit;
+    color: inherit;
+    outline-color: black;
+}
+
+
+
+#btn4 {
+    width: 152px;
+    height: 42px;
+    border-radius: 14px;
+    background: #FFF;
+    color:black;
+    font-size: 16px;
+    border-color: #FFF;
+}
+
+#btn4:focus,
+#btn4:active {
+    box-shadow: none !important;  
+}
+
+#btn4:active {
+    background: inherit;
+    color: inherit;
+    outline-color: black;
+}
+
+#btn5 {
+    width: 649px;
+    height: 52px;
+    border-radius: 12px;
+    background: #FFF;
+    color:black;
+    font-size: 16px;
+    border-color: #FFF;
+  
+}
+
+#btn5:focus,
+#btn5:active {
+    box-shadow: none !important;  
+}
+
+#btn5:active {
+    background: inherit;
+    color: inherit;
+    outline-color: black;
+}
+
+
+
+#buttons {
+    position: relative;
+    bottom: 4em;
+  
+}
+
+
+@media (max-width: 1000px){
+    #btn5 {
+      
+      margin-left: 0%;
+      width: 350px;
+    }
+    
+}
+
+@media (max-width: 1400px) and (min-width: 1000px){
+    #btn5 {
+      
+      margin-left: 0%;
+      width: 450px;
+    }
+    
+}
+
+@media (max-width: 792px){
+    #nepal {
+      
+        background-size: cover;
+  
+    }
+    
+}
+
+@media (max-width: 792px) {
+    #text5 p{
+        text-align: justify;
+        font-size: 13px;
+        display: -webkit-box;
+        -webkit-line-clamp: 8;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+    }
+    }  
+    @media (max-width: 580px) {
+        #setting3{
+        right: 0em;
+        }
+        }  
+    
+
+
+@media (min-width: 1000px) 
+{ #btn1 {
+    margin-left: 15%;
+}
+}
+
+

@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>aperture</title>
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark pb-4 pt-4">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav" id="navbarNavAltMarkup">
+          <a class="nav-link active" href="#text2">Business areas</a>
+          <a class="nav-link active" href="#text3">Featured images</a>
+          <a class="nav-link active" href="#text5">Gear cage</a>
+          <a class="nav-link active" href="#footer">Contact</a>
+        </div>
+        <div class="container-flex">
+          <button class="btn btn-outline-success mr-2" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal" id="btn1">Get template</button>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" id="exampleModalLabel">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><img src="images/logo.png" alt=""></h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <div class="row">
+                    <form action="/sendmail.php" method="post">
+                      <div class="mb-3 mt-3">
+                        <label for="name" class="form-label">Name:</label>
+                        <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="E-mail" name="email">
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="container-fluid" id="main">
+  <div class="container" id="text1">
+    <p>
+    <h6>Photographer & Filmmaker</h6>
+    </p>
+    <p>
+    <h1>Aperture Studios</h1>
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+      Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus
+      nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+  </div>
+  <div class="row">
+    <div class="container-fluid" id="setting">
+      <img src="images/excerpt.png" alt="">1/2000s</img>
+      <img src="images/dia.png" alt="">f/11</img>
+      <img src="images/iso.png" alt="">100</img>
+      <a href="https://www.google.ru/maps/place/Рейкьявик,+Исландия/@64.1334671,-21.9348414,12z/data=!3m1!4b1!4m15!1m8!3m7!1s0x48d22b52a3eb6043:0x6f8a0434e5c1459a!2z0JjRgdC70LDQvdC00LjRjw!3b1!8m2!3d64.963051!4d-19.020835!16zL20vMDNyajA!3m5!1s0x48d674b9eedcedc3:0xec912ca230d26071!8m2!3d64.1469868!4d-21.9407552!16zL20vMDZmbGc?entry=ttu"
+        target="_blank"><img src="images/point.png" alt="">Iceland</img></a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="container" id="text2">
+      <p>
+      <h1>What we do.</h1>
+      </p>
+      <p>The areas that we're specialized in.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col" id="product">
+        <p>
+        <h5>Product Photography</h5>
+        </p>
+        <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci
+          varius, faucibus libero ac, cursus quam.</p>
+      </div>
+      <div class="col" id="architecture">
+        <p>
+        <h5>Architecture Photography</h5>
+        </p>
+        <p>Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra, ligula est
+          semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet
+          nec.</p>
+      </div>
+      <div class="row" id="buttons">
+        <div class="col">
+          <button onclick="window.location.href = 'https://vk.com';" target="_blank"
+            class="btn btn-outline-success mr-2" type="button" id="btn2"><i class="bi bi-circle"></i>Read
+            more</button>
+        </div>
+        <div class="col">
+          <button onclick="window.location.href = 'https://vk.com';" target="_blank"
+            class="btn btn-outline-success mr-2" type="button" id="btn3"><i class="bi bi-circle"></i>Read
+            more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col" id="drone">
+        <p>
+        <h5>Drone Photography</h5>
+        </p>
+        <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a vestibulum. Cras
+          commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci
+          varius, faucibus libero ac, cursus quam.</p>
+      </div>
+      <div class="col" id="wild">
+        <p>
+        <h5>Wildlife Photography</h5>
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla
+          rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+          Vestibulum sit amet urna turpis.</p>
+      </div>
+      <div class="row" id="buttons2">
+        <div class="col">
+          <button onclick="window.location.href = 'https://vk.com';" target="_blank"
+            class="btn btn-outline-success mr-2" type="button" id="btn2"><i class="bi bi-circle"></i>Read
+            more</button>
+        </div>
+        <div class="col">
+          <button onclick="window.location.href = 'https://vk.com';" target="_blank"
+            class="btn btn-outline-success mr-2" type="button" id="btn3"><i class="bi bi-circle"></i>Read
+            more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row" id="mount">
+    <div class="container" id="text3">
+      <div class="col">
+        <p>
+        <h6>Sunset at Mount Fuji</h6>
+        </p>
+        <p>
+        </p>
+        <div class="col" id="text4">
+          <p>Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="setting2">
+      <img src="images/excerpt.png" alt="">1"</img>
+      <img src="images/dia.png" alt="">f/16</img>
+      <img src="images/iso.png" alt="">400</img>
+      <a href="https://www.google.ru/maps/place/Фудзияма,+Китаяма,+Фудзиномия,+Сидзуока+418-0112,+Япония/data=!4m2!3m1!1s0x6019629a42fdc899:0xa6a1fcc916f3a4df!5m1!1e4?sa=X&ved=2ahUKEwi4iKC-y8iBAxU5GxAIHZ03Cw8Q8gF6BAhnEAA&ved=2ahUKEwi4iKC-y8iBAxU5GxAIHZ03Cw8Q8gF6BAhvEAE"
+        target="_blank"><img src="images/point.png" alt="">Japan</img></a>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col" id="text5">
+      <div class="container">
+        <div class="offset-1 col-8">
+          <h5>The Gear cage</h5>
+          <h1>The tools that we use.</h1>
+          <p>The say that "no place is boring if you've had a good night's sleep and have a pocket full of unexposed
+            film".
+            While we don't shoot (a lot) of film these days — these are the tools that we actually use everyday to
+            capture
+            the amazing things around us.</p>
+          <button onclick="window.location.href = 'https://vk.com';" target="_blank"
+            class="btn btn-outline-success mr-2" type="button" id="btn4"><i class="bi bi-circle"></i>Check it
+            out</button>
+        </div>
+      </div>
+    </div>
+    <div class="col" id="photo">
+      <div class="container-fluid" id="setting3">
+        <div class="offset-xs-6 offset-sm-6 offset-md col-sm-6  col-lg-6">
+          <img src="images/excerpt.png" alt="">0,8"</img>
+          <img src="images/dia.png" alt="">f/5,6</img>
+          <img src="images/iso.png" alt="">100</img>
+          <a href="https://www.google.ru/maps/place/Швеция/@61.6305812,6.8819348,5z/data=!3m1!4b1!4m6!3m5!1s0x465cb2396d35f0f1:0x22b8eba28dad6f62!8m2!3d60.128161!4d18.643501!16zL20vMGQwdnFu?entry=ttu"
+            target="_blank"><img src="images/point.png" alt="">Sweden</img></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row" id="monstera">
+    <div class="container" id="text3">
+      <div class="col">
+        <p>
+        <h6>Monstera Leafs</h6>
+        </p>
+        <p>
+        </p>
+        <div class="col" id="text4">
+          <p>Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="setting2">
+      <img src="images/excerpt.png" alt="">1/400s</img>
+      <img src="images/dia.png" alt="">f/3,5</img>
+      <img src="images/iso.png" alt="">100</img>
+      <a href="https://www.google.ru/maps/place/costa+rica/data=!4m2!3m1!1s0x8f92e56221acc925:0x6254f72535819a2b?sa=X&ved=2ahUKEwj8nLH8-sqBAxV2LRAIHRCcLAAQ8gF6BAgMEAA&ved=2ahUKEwj8nLH8-sqBAxV2LRAIHRCcLAAQ8gF6BAgPEAE"
+        target="_blank"><img src="images/point.png" alt="">Costa-Rica</img></a>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row" id="clients">
+    <div class="container" id="text6">
+      <div class="col">
+        <p>
+        <h1>Past clients</h1>
+        <h3>Trusted by your favourite companies</h3>
+        </p>
+      </div>
+    </div>
+    <div class="container mb-5">
+      <div class="row" id="clients1">
+        <div class="col-lg-2 offset-xs-2 col-sm-5  col-5">
+          <a href="https://www.instagram.com/hillhayescreative/" target="_blank"><img src="images/hill.png" alt=""></a>
+        </div>
+        <div class="col-lg-2 col-sm-5  col-5 mb-5">
+          <a href="https://riksgransen.se/en/" target="_blank"><img src="images/riks.png" alt=""></a>
+        </div>
+        <div class="col-lg-2 offset-xs-2 col-sm-5 col-5">
+          <a href="https://caiguoqiang.com/studio/" target="_blank"><img src="images/studio.png" alt=""></a>
+        </div>
+        <div class="col-lg-2 col-sm-5  col-5 mb-5">
+          <a href="https://www.facebook.com/chill.industries/" target="_blank"><img src="images/chill.png" alt=""></a>
+        </div>
+        <div class="col-lg-2 offset-xs-2 col-sm-10 col-10">
+          <a href="https://international.stockholm.se/" target="_blank"><img src="images/stock.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row" id="nepal">
+    <div class="container" id="text3">
+      <div class="col">
+        <p>
+        <h6>Star fall in the Himalayas</h6>
+        </p>
+        <p>
+        </p>
+        <div class="col" id="text4">
+          <p>Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut
+            ligula.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="setting2">
+      <img src="images/excerpt.png" alt="">6"</img>
+      <img src="images/dia.png" alt="">f/11</img>
+      <img src="images/iso.png" alt="">800</img>
+      <a href="https://www.google.ru/maps/place/nepal/data=!4m2!3m1!1s0x3995e8c77d2e68cf:0x34a29abcd0cc86de?sa=X&ved=2ahUKEwi-8L_QkcuBAxWVyosKHRwTA6QQ8gF6BAgLEAA&ved=2ahUKEwi-8L_QkcuBAxWVyosKHRwTA6QQ8gF6BAgXEAE"
+        target="_blank"><img src="images/point.png" alt="">Nepal</img></a>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row" id="clients">
+    <div class="container mb-5" id="text7">
+      <div class="col">
+        <p>
+        <h1>Need help with photography <p></p>or videography?</h1>
+        <h3>We're here for you!</h3>
+        </p>
+      </div>
+      <button onclick="window.location.href = 'https://vk.com';" target="_blank" class="btn btn-outline-success mr-2"
+        type="button" id="btn4"><i class="bi bi-circle"></i>Get in
+        touch</button>
+    </div>
+  </div>
+</div>
+<footer class="text-white text-start" id="footer">
+  <div class="container p-5">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <a href=""><img src="images/logo.png" alt=""></a>
+        <p>
+          Photographers & videographers capturing the world around us.
+        </p>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="footer2">
+        <h5 class="text-uppercase">Business areas</h5>
+
+        <ul class="list-unstyled mb-1">
+          <li>
+            <a href="#!" class="text">Product Photography</a>
+          </li>
+          <li>
+            <a href="#!" class="text">Architecture Photography</a>
+          </li>
+          <li>
+            <a href="#!" class="text">Drone Photography</a>
+          </li>
+          <li>
+            <a href="#!" class="text">Wildlife Photography</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="footer2">
+        <h5 class="text-uppercase mb-1">Pages</h5>
+        <ul class="list-unstyled mb-1">
+          <li>
+            <a href="#!" class="text">Gear cage</a>
+          </li>
+          <li>
+            <a href="#!" class="text">Featured images</a>
+          </li>
+          <li>
+            <a href="#!" class="text">Contact</a>
+          </li>
+          <li>
+            <a href="#!" class="text">Style guide</a>
+          </li>
+          <li>
+            <a href="#!" class="text">Instructions</a>
+          </li>
+          <li>
+            <a href="#!" class="text">Changelog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container p-5" id="row">
+    <div class="row">
+      <div class="col">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <div class="text-uppercase">
+            <h4>Subscribe to our newsletter</h4>
+          </div>
+          <p>
+            Read about all the things we do.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <button class="btn btn-outline-success mr-2" type="button" id="btn5"><i class="bi bi-circle"></i></button>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="text p-5" style="background-color: rgba(0, 0, 0, 0.2);">
+      <div class="row">
+        <div class="col-lg-6 col-xs-12">
+          <p>© Aperture Photography, Inc. All rights reserved. Licensing</p>
+        </div>
+        <div class="offset-lg-4 offset-xs-2 col-xs 4 col-lg-2 text-center" id="icon">
+          <a href="https://twitter.com/?lang=ru" target="_blank"><img src="images/Twitter-Icon-Light.png" alt=""></a>
+          <a class="icon" href="https://www.instagram.com/" target="_blank"><img src="images/insta.png" alt=""></a>
+          <a class="icon" href="https://ru-ru.facebook.com/" target="_blank"><img src="images/face.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/jquery.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/js.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
